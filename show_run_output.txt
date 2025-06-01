@@ -1,0 +1,52 @@
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+COREbaba-_(config)#hostname aironwifi
+aironwifi(config)#dot11 ssid NetDevOpsWIFI-51rr
+                      ^
+% Invalid input detected at '^' marker.
+
+aironwifi(config)#authentication open
+                                 ^
+% Invalid input detected at '^' marker.
+
+aironwifi(config)#authentication key-management wpa
+                                 ^
+% Invalid input detected at '^' marker.
+
+aironwifi(config)#wpa-psk ascii C1sc0123
+                   ^
+% Invalid input detected at '^' marker.
+
+aironwifi(config)#guest-mode
+                   ^
+% Invalid input detected at '^' marker.
+
+aironwifi(config)#default Int Dot11Radio 0
+                               ^
+% Invalid input detected at '^' marker.
+
+aironwifi(config)#int dot11radio 0
+                       ^
+% Invalid input detected at '^' marker.
+
+aironwifi(config)#no shut
+% Incomplete command.
+
+aironwifi(config)#channel 8
+                   ^
+% Invalid input detected at '^' marker.
+
+aironwifi(config)#encryption mode ciphers tkip
+                    ^
+% Invalid input detected at '^' marker.
+
+aironwifi(config)#ssid NetDevOpsWIFI-51rr
+                   ^
+% Invalid input detected at '^' marker.
+
+aironwifi(config)#bridge-group 1
+                        ^
+% Invalid input detected at '^' marker.
+
+aironwifi(config)#exit
+aironwifi#
