@@ -23,3 +23,5 @@ ip dhcp pool vlan11.com.ph
   Int e 0/0
   no shut
   ip address dhcp
+
+  ------
