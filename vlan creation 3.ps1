@@ -12,7 +12,7 @@ ip dhcp pool vlan101.com.ph
  network 10.0.4.0 255.255.252.0
  default-router 10.0.4.0
  domain-name vlan101.com.ph
- @A2:
+ @D1:
  conf t
  Int e 1/0
   switchport mode access
